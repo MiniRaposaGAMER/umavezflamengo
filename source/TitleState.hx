@@ -675,16 +675,16 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
+				// credTextShit.text = "VS";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('VS');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
-				// credTextShit.text += '\nNight';
+					addMoreText('Flamengo');
+				// credTextShit.text += '\nFlamengo';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('YEAAAH); // credTextShit.text += '\nYEAAAH';
 
 				case 17:
 					skipIntro();
