@@ -36,7 +36,6 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
