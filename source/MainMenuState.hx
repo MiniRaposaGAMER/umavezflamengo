@@ -90,14 +90,6 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		var char:FlxSprite = new FlxSprite(-80).loadGraphic(randomizeBG());
-		char.scrollFactor.set(0, 0);
-		char.setGraphicSize(Std.int(bg.width * 1.175));
-		char.updateHitbox();
-		char.screenCenter();
-		char.antialiasing = ClientPrefs.globalAntialiasing;
-		add(char);
-
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -112,6 +104,21 @@ class MainMenuState extends MusicBeatState
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
+
+		var char:FlxSprite = new FlxSprite(-80).loadGraphic(randomizeBG());
+		char.scrollFactor.set(0, 0);
+		char.updateHitbox();
+		char.screenCenter();
+		char.antialiasing = ClientPrefs.globalAntialiasing;
+		add(char);
+
+		var flamengo:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('storychar/flamengo'));
+		flamengo.scrollFactor.set(0, 0);
+		flamengo.setGraphicSize(Std.int(flamengo.width * 1.175));
+		flamengo.updateHitbox();
+		flamengo.screenCenter();
+		flamengo.antialiasing = ClientPrefs.globalAntialiasing;
+		add(flamengo);
 		
 		// magenta.scrollFactor.set();
 
