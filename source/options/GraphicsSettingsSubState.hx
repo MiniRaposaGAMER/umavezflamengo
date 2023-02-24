@@ -37,7 +37,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
-		var option:Option = new Option('Low Quality', //Name
+		var option:Option = new Option('Toaster Mode', //Name
 			'If checked, makes the game toaster mode,\ndecreases loading times and improves performance.', //Description
 			'lowQuality', //Save data variable name
 			'bool', //Variable type
