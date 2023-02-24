@@ -186,6 +186,11 @@ class FreeplayState extends MusicBeatState
 		textBG.alpha = 0.6;
 		add(textBG);
 
+		crimepolicia = new FlxSprite().loadGraphic(Paths.image('crimepolicia'));
+		crimepolicia.antialiasing = ClientPrefs.globalAntialiasing;
+		add(crimepolicia);
+		crimepolicia.screenCenter();
+
 		#if PRELOAD_ALL
 		var leText:String = "Press SPACE to listen to the Song / Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
 		var size:Int = 16;
