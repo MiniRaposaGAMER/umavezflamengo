@@ -105,6 +105,8 @@ class MainMenuState extends MusicBeatState
 		magenta.color = 0xFFfd719b;
 		add(magenta);
 
+		FlxG.sound.playMusic(Paths.music('assustador'), 0);
+
 		var char:FlxSprite = new FlxSprite(-80).loadGraphic(randomizeBG());
 		char.scrollFactor.set(0, 0);
 		char.updateHitbox();
