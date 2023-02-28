@@ -88,7 +88,7 @@ class PlayState extends MusicBeatState
 		['EU SLAKKKKKKKKKKK', 0.5], //From 40% to 49%
 		['Empate', 0.6], //From 50% to 59%
 		['Cheirinho', 0.69], //From 60% to 68%
-		['Raro', 0.7], //69%
+		['Sexo', 0.7], //69%
 		['Torcedor', 0.8], //From 70% to 79%
 		['Neymar Junior', 0.9], //From 80% to 89%
 		['É GOOOLL', 1], //From 90% to 99%
