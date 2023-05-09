@@ -84,6 +84,8 @@ class CreditsState extends MusicBeatState
 			['VS FLAMENGO'],
 			['MiniRaposaGamer',		'miniraposa',		'Composer,Artist and Coder',								'https://twitter.com/MiniRaposaGamer',	'444444'],
 			['Animacty',			'animacty',			'Artist',							'https://twitter.com/AnimaciteD',		'B42F71'],
+			['Lucas Barbosa',		'lucas',			'Composer',							'https://twitter.com/BarbosaMeneghin',		'a7e0f1'],
+			['Gaozoiro',			'gaozoiro',			'Artist',							'https://twitter.com/gaozoiro',		'3232ff'],
 			[''],
 			['twitter do flamengo'],
 			['twitter fnf flamengo mod',			'twitter',			'Twitter do Mod vs Flamengo segue la',							'https://twitter.com/LinkLaDoZelda',		'B42F71'],
