@@ -39,6 +39,8 @@ jobs:
           haxelib run hmm install
           haxelib remove hxCodec
           haxelib install hxCodec 2.5.1
+          haxelib remove openfl
+          haxelib install openfl 9.3.0
           haxelib remove flixel
           haxelib install flixel 4.11.0
           haxelib remove flixel-addons
@@ -73,6 +75,8 @@ jobs:
           haxelib run hmm install
           haxelib remove hxCodec
           haxelib install hxCodec 2.5.1
+          haxelib remove openfl
+          haxelib install openfl 9.3.0
           haxelib remove flixel
           haxelib install flixel 4.11.0
           haxelib remove flixel-addons
@@ -108,6 +112,8 @@ jobs:
           haxelib run hmm install
           haxelib remove hxCodec
           haxelib install hxCodec 2.5.1
+          haxelib remove openfl
+          haxelib install openfl 9.3.0
           haxelib remove flixel
           haxelib install flixel 4.11.0
           haxelib remove flixel-addons
